@@ -11,6 +11,6 @@ public class Question2 {
 
         double area = Math.PI * Math.pow(radius, 2); //You can use the constant Math.PI to represent PI and Math.pow(value, 2) method get the radius squared.
 
-        System.out.println("Area of the circle: " + area);
+        System.out.println("Area of the circle: " + area); //Outputting the area of the circle to the console.
     }
 }
