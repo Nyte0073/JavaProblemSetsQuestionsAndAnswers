@@ -38,7 +38,7 @@ public class Question4 {
 
         for(String string : questionsAndAnswers.keySet()) { //Loops through the HashMap to ask the user for their answers to the quiz's questions.
             System.out.println(string + "?");
-            String answer = sc.nextLine(); //Taking input for the user answer's
+            String answer = sc.nextLine(); //Taking input for the user answers.
 
             if(answer.equalsIgnoreCase(questionsAndAnswers.get(string))) { //If the user's answer is correct, then the console will print "Correct!" and augment the player's score.
                 System.out.println("Correct!");
