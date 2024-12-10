@@ -33,5 +33,6 @@ public class Question3 {
         getArea(radius); //Referencing all the methods in "main" method to run their programs.
         getCircumference(radius);
         getDiameter(radius);
+        //This is a new change
     }
 }
