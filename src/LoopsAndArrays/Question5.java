@@ -29,5 +29,7 @@ public class Question5 {
         } else { //If timeOfDay is equal to pm, then the program will print the time of the day with PM if the number is less than 13.
             System.out.println(beginningHour + elapsedTime >= 13 ? (beginningHour + elapsedTime) - 12 + " am" : beginningHour + elapsedTime - 12 + " pm");
         }
+
+        sc.close();
     }
 }

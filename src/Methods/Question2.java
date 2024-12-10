@@ -39,6 +39,8 @@ public class Question2 {
                 }
             }
         }
+
+        sc.close();
     }
 
     public static void main(String[] args) {

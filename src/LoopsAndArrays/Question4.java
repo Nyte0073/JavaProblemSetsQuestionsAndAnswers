@@ -46,5 +46,7 @@ public class Question4 {
         }
 
         System.out.println("Here are the prime numbers up to " + number + ": " + "\n" + primeNumbers); //Outputs all prime numbers stored in the primeNumbers ArrayList.
+
+        sc.close();
     }
 }

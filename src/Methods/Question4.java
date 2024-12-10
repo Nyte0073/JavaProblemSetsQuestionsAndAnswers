@@ -49,6 +49,7 @@ public class Question4 {
         }
 
         System.out.println("Here is your score: " + Math.round((((float) score /numOfQuestions) * 100)) + "%"); //Outputs the player's final score to the console, in percentage.
+        sc.close();
     }
 
     public static void main(String[] args) {
