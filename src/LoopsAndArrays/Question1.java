@@ -7,7 +7,7 @@ public class Question1 {
 
     //Answer:
     public static void main(String[] args) {
-        int[] numbers = {10, 58, 9, 3, 46}; //Integer array carrying the numbers to be searched through.
+        int[] numbers = {10, 58, 68, 3, 46}; //Integer array carrying the numbers to be searched through.
 
         int smallestNumber = numbers[0]; //Integer variable to hold the value for the smallest number in the array.
 
