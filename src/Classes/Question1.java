@@ -58,5 +58,7 @@ class CircleDemo {
         System.out.println("Circle1 area: " + circle1.getArea()); //Outputting the circle's area to the console.
 
         circle1.setColor("BLUE"); //Changing/setting the circle's color from "RED" to "BLUE".
+
+        System.out.println("New color: " + circle1.getColor());
     }
 }
