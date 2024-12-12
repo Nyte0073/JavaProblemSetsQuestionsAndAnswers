@@ -55,5 +55,7 @@ public class Question2 {
                 System.out.println("Invalid input. Try again.");
             }
         }
+
+        sc.close();
     }
 }
